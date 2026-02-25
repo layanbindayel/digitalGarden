@@ -1,11 +1,11 @@
 site_name: Layan's Digital Garden
 site_description: A collection of notes and resources on various topics.
-site_url: https://layan-digital-garden.github.io/
+site_url: https://layanbindayel.github.io/digitalGarden/
 copyright: ©️ 2026 Layan Bin Dayel · All rights reserved 
 
 theme:
   name: material
-  favicon:
+  # favicon:
 
   features:
     - navigation.tabs
@@ -43,6 +43,17 @@ theme:
     code: Fira Code
 nav:
   - Home: index.md
+  - Academics:
+      - "AI & Data Science": Academics/ai-ds/Intro.md
+      - "Open Academics": Academics/Intro.md
+  - Career Development:
+      - "Career Development": career-development/Intro.md
+  - Academic Plan: academic-plan.md
+  - Resources: links.md
+  - About: 
+      - "About Me": about.md
+      - "Contact": contact.md
+      - Copyright & License: copyright-license.md
 
 markdown_extensions:
   - admonition
@@ -52,8 +63,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
@@ -64,4 +75,4 @@ extra_css:
   - styles/extra.css
 
 extra_javascript:
-  - javascripts/cta-footer.js
+  - javascript/cta-footer.js
